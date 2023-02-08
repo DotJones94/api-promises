@@ -1,0 +1,13 @@
+////@tailwind base;
+//@tailwind components;
+////@tailwind utilities;
+
+@import "abstrsacts/_variables.scss";
+
+@import 'base/base.scss';
+
+@import "base/typography.scss";
+
+.main-container{
+    height: 100vh;
+}

@@ -13,11 +13,10 @@ import * as directives from 'vuetify/directives'
 const myCustomLightTheme = {
     dark: false,
     colors: {
-        background: '#FFFFFF',
         surface: '#FFFFFF',
-        primary: '#6200EE',
-        'primary-darken-1': '#3700B3',
-        secondary: '#03DAC6',
+        primary: '#3E0D64',
+        'primary-darken-1': '#1D0550',
+        secondary: '#C69FE9',
         'secondary-darken-1': '#018786',
         error: '#B00020',
         info: '#2196F3',
@@ -29,9 +28,9 @@ const myCustomLightTheme = {
 const vuetify = createVuetify({
     components,
     directives,
-    // theme: {
-    //     myCustomLightTheme
-    // }
+    theme: {
+        myCustomLightTheme
+    }
 })
 
 const app = createApp(App)

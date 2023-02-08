@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background: linear-gradient(#3E0D64, #1D0550);
+  min-height: 100vh;
+  overflow: scroll;
+  font-family: 'Roboto', sans-serif; }
+
+.heading-one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff; }
+
+.heading-two {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #C69FE9; }
+
+.main-container {
+  height: 100vh; }

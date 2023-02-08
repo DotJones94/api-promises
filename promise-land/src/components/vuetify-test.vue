@@ -3,7 +3,7 @@
 <!--    Banner-->
     <v-banner
         color="pink-darken-1"
-        icon="mdi-account-box"
+        icon="fas fa-home"
         lines="two"
     >
       <template v-slot:prepend>
